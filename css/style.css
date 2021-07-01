@@ -5,23 +5,24 @@
 }
 
 #main-first-container{
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 
 #main-second-container{
     background-color: rgb(113, 113, 248);
-    height: 300px;
+    height: 400px;
     margin-bottom: 5px;
 }
 
 body{
-    margin: 10px 10px;
+    width: 80%;
+    margin: 10px auto;
 }
 
 header{
     background-color: violet;
-    height: 120px;
-    margin-bottom: 10px;
+    height: 100px;
+    margin-bottom: 13px;
 }
 
 .float-right{
@@ -34,19 +35,19 @@ header{
 
 .square-yellow{
     background-color: rgb(228, 218, 83);
-    height: 300px;
+    height: 270px;
     width: 100%;
 }
 
 footer{
     background-color: blueviolet;
-    height: 90px;
+    height: 40px;
 }
 
 .up-lightblue{
     background-color: lightblue;
-    height: 90px;
-    margin-bottom: 10px;
+    height: 50px;
+    margin-bottom: 13px;
 }
 
 .clearfix::after{
@@ -58,5 +59,12 @@ footer{
 .l-bg{
     background-color: lightblue;
     width: 15%;
-    height: 190px;
+    height: 320px;
+}
+
+.centre-bg{
+    background-color: lightblue;
+    height: 320px;
+    width: calc(70% - 20px);
+    margin-left: 10px;
 }
